@@ -1,0 +1,66 @@
+{
+    "configurations": [{
+            "name": "Mac",
+            "includePath": [],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "vector-of-bool.cmake-tools",
+            "compileCommands": "${workspaceRoot}/build/compile_commands.json"
+
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\_\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sysroot\\usr\\include",
+                "C:\\Users\\_\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include",
+                "${workspaceRoot}",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__arm__",
+                "__ANDROID__"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
